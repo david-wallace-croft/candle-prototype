@@ -20,9 +20,12 @@
 
 ## Usage
 
+- cargo run -p prototype-01 --release
+
+## Nvidia
+
 - nvcc --version
 - nvidia-smi --query-gpu=compute_cap --format=csv
-- cargo run
 
 ## History
 
