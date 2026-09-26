@@ -18,8 +18,12 @@ version = "0.0.0-SNAPSHOT"
 debug = "line-tables-only"
 
 [workspace]
-members = ["prototype-01"]
+members = ["prototype-00", "prototype-01"]
 
 [workspace.dependencies]
-candle-core = "0.11.0"
-candle-nn = "0.11.0"
+anyhow = "1.0.104"
+candle-core = { git = "https://github.com/huggingface/candle.git" }
+candle-examples = { git = "https://github.com/huggingface/candle.git" }
+candle-nn = { git = "https://github.com/huggingface/candle.git" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git" }
+clap = { version = "4.2.4", features = ["derive"] }

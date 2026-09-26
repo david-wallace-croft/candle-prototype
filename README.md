@@ -20,10 +20,13 @@
 
 ## Usage
 
+- cargo run -p prototype-00 --release
 - cargo run -p prototype-01 --release
+- \[...\]
 
 ## Nvidia
 
+- Some Nvida commands that might be useful
 - nvcc --version
 - nvidia-smi --query-gpu=compute_cap --format=csv
 
